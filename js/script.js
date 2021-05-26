@@ -15,3 +15,8 @@ var password = name + surname + color + '21';
 // console.log(password);
 
 document.getElementById('password').innerHTML += password;
+
+var password_lower = password.toLowerCase()
+// console.log(password_lower)
+
+document.getElementById('password').innerHTML += password_lower;
